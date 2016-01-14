@@ -32,7 +32,19 @@ body, html{
   height: 200px;
   width: 100%; 
   height: auto;
-  z-index: -1;
+  z-index: -800;
+}
+
+
+#overlay{
+  position: absolute;
+  top:0px;
+  height: 500px;
+  width: 100%;
+  opacity: .5;
+  background-color: #11344b;
+    z-index: -1;
+
 }
 
 .navbar-brand{
@@ -71,7 +83,6 @@ section{
   box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
 
 }
-
 
 section#home{
   box-shadow: none;

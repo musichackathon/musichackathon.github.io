@@ -1,9 +1,21 @@
+@font-face {
+    font-family: BebasBold;
+    src: url(bebas/BebasNeueRegular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(open-sans/OpenSans-Regular.ttf);
+}
+
+
 *{
 
 }
 
 body, html{
   overflow: scroll;
+  font-family: OpenSans;
 
 }
 
@@ -21,6 +33,20 @@ body, html{
   width: 100%; 
   height: auto;
   z-index: -1;
+}
+
+.navbar-brand{
+  margin: 0;
+}
+.navbar-brand>img{
+  height: 100%;
+  padding:0;
+}
+nav{
+    font-family: BebasBold;
+    font-size: 25px;
+    letter-spacing: 2px;
+
 }
 
 /*transparent background*/

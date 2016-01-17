@@ -4,6 +4,10 @@
 }
 
 @font-face {
+    font-family: MontBold;
+    src: url(montserrat/Montserrat-Regular.otf);
+}
+@font-face {
     font-family: OpenSans;
     src: url(open-sans/OpenSans-Regular.ttf);
 }
@@ -55,9 +59,11 @@ body, html{
   padding:0;
 }
 nav{
-    font-family: BebasBold;
-    font-size: 25px;
-    letter-spacing: 2px;
+    font-family: MontBold;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
 
 }
 
@@ -70,6 +76,13 @@ nav{
     opacity: .9;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ddd;
+}
 section{
   margin: 0;
   text-align: center;
@@ -84,9 +97,17 @@ section{
 
 }
 
+section>h3{
+  font-family:MontBold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
 section#home{
+  font-family: MontBold;
   box-shadow: none;
-  padding-top: 200px;
+  padding-top: 120px;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 section#about{
     background-color: #11344b;

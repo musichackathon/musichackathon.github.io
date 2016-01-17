@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="animate.css">
 
-    <script src = "//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 </head>
 <body>
@@ -28,14 +27,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#home"><img src = "whitelogo.png"></a>
+          <a class="navbar-brand page-scroll" href="#home"><img src = "whitelogo.png"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#faq">FAQ</a></li>
+            <li><a class="page-scroll" href="#sponsors">Sponsors</a></li>
+            <li><a class="page-scroll" href="#team">Team</a></li>
+
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
             <li><a href="http://www.eventbrite.com/o/monthly-music-hackathon-nyc-2470452960">RSVP</a></li>
 
           </ul>
@@ -76,14 +77,14 @@
 <section id = "about">
 
   <img src="mmh_logo_blue_big_transparent.png" width="240" height="240" />
-  <h4> About</h4>
+  <h3> About</h3>
   <hr/>
 At Monthly Music Hackathon NYC, musicians, programmers, artists, scientists, composers, hardware tinkerers, and others spend the last Saturday of each month hacking together projects exploring music. At 8pm we have a concert and presentations of the art, technology, and research developed that day. It's open to everyone. Please come participate or observe.
 
 </section>
 
 <section id = "faq">
-  <h4> Frequently Asked Questions</h4>
+  <h3> Frequently Asked Questions</h3>
   <hr/>
 
 
@@ -101,16 +102,29 @@ At Monthly Music Hackathon NYC, musicians, programmers, artists, scientists, com
 
 
 <section id = "sponsors">
-  <h4> Sponsors</h4>
+  <h3> Thank you to our sponsors</h3>
   <hr/>
+
+  
 
 
 </section>
 
+<section id = "team">
+  <h3> Feel free to <p style = "color:red;">contact</p></h3>
+  <hr/>
+</section>
+
+
+  <section id = "contact">
+  <h3> Feel free to <p style = "color:red;">contact</p></h3>
+  <hr/>
+
+</section>
 <footer class="footer">
       <div class="container">
         <div class = "col-md-6 text-right">
-            <h4><b>Monthly Music Hackathon</b></h4>
+            <h3><b>Monthly Music Hackathon</b></h3>
             <br>
             
             Email: xx <br>
@@ -118,7 +132,7 @@ At Monthly Music Hackathon NYC, musicians, programmers, artists, scientists, com
         </div>
 
         <div class="col-md-6 text-left">
-            <h4><b>Follow Us</b></h4><br>
+            <h3><b>Follow Us</b></h3><br>
             <a href = "https://www.facebook.com/eastlandsnyc?_rdr=p" class = "socicon-facebook"></a>
             <a href = "https://www.instagram.com/eastlandsnyc/" class = "socicon-instagram"></a>
 
@@ -126,10 +140,18 @@ At Monthly Music Hackathon NYC, musicians, programmers, artists, scientists, com
       </div>
     </footer>
 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 <!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 
 
 

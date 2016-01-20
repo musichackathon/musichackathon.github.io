@@ -17,6 +17,15 @@
 
 }
 
+
+#member{
+
+}
+#member>img{
+  width:100%;
+
+}
+
 body, html{
   overflow: scroll;
   font-family: OpenSans;
@@ -112,6 +121,10 @@ section#home{
 section#about{
     background-color: #11344b;
 
+}
+
+section#team{
+  background-color: #394841;
 }
 
 section#faq{

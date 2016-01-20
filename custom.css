@@ -52,7 +52,7 @@ body, html{
 #overlay{
   position: absolute;
   top:0px;
-  height: 500px;
+  height: 1000px;
   width: 100%;
   opacity: .5;
   background-color: #11344b;
@@ -114,7 +114,9 @@ section>h3{
 section#home{
   font-family: MontBold;
   box-shadow: none;
-  padding-top: 120px;
+  padding-top: 300px;
+    padding-bottom: 300px;
+
   font-size: 20px;
   letter-spacing: 3px;
 }

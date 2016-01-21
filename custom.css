@@ -17,6 +17,10 @@
 
 }
 
+.members{
+  text-align:center;
+}
+
 
 #member{
 
@@ -92,7 +96,7 @@ nav{
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #ddd;
 }
-section{
+footer, section{
   margin: 0;
   text-align: center;
   color: white;
@@ -106,7 +110,11 @@ section{
 
 }
 
-section>h3{
+footer{
+  color:black;
+}
+
+footer>h3, section>h3{
   font-family:MontBold;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -125,6 +133,9 @@ section#about{
 
 }
 
+section#events{
+  background-color: #123945;
+}
 section#team{
   background-color: #394841;
 }

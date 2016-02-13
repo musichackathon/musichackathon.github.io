@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: MontBold;
-    src: url(montserrat/Montserrat-Regular.otf);
+    src: url(vendor/fonts/montserrat/Montserrat-Regular.otf);
 }
 @font-face {
     font-family: OpenSans;
-    src: url(open-sans/OpenSans-Regular.ttf);
+    src: url(vendor/fonts/open-sans/OpenSans-Regular.ttf);
 }
 
 
@@ -47,7 +47,7 @@ body, html{
 
   top:0px;
   height: 200px;
-  width: 100%; 
+  width: 100%;
   height: auto;
   z-index: -800;
 }

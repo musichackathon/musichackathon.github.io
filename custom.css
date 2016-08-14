@@ -12,33 +12,27 @@
     src: url(vendor/fonts/open-sans/OpenSans-Regular.ttf);
 }
 
-
-*{
-
-}
-
-.members{
+.members {
   text-align:center;
 }
 
-
-#member{
+#member {
 
 }
-#member>img{
+
+#member>img {
   width:100%;
-
 }
 
-body, html{
+body, html {
   overflow: scroll;
   font-family: OpenSans;
-
 }
 
-#body-background{
+#body-background {
   background-color: #11344b;
 }
+
 #video-background {
 /*  making the video fullscreen  */
   position: absolute;
@@ -52,32 +46,30 @@ body, html{
   z-index: -800;
 }
 
-
-#overlay{
+#overlay {
   position: absolute;
-  top:0px;
+  top: 0px;
   height: 1000px;
   width: 100%;
   opacity: .5;
   background-color: #11344b;
-    z-index: -1;
-
+  z-index: -1;
 }
 
-.navbar-brand{
+.navbar-brand {
   margin: 0;
 }
-.navbar-brand>img{
+
+.navbar-brand>img {
   height: 100%;
   padding:0;
 }
-nav{
+
+nav {
     font-family: MontBold;
     font-size: 18px;
     text-transform: uppercase;
-
     letter-spacing: 4px;
-
 }
 
 /*transparent background*/
@@ -96,30 +88,30 @@ nav{
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #ddd;
 }
-footer, section{
+
+footer, section {
   margin: 0;
   text-align: center;
   color: white;
   width: 100%;
   padding: 3% 0 7% 5%;
 
-
-    -moz-box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
   -webkit-box-shadow: rgba(0,0,0,0.3) 0 10px 30px;
   box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
-
 }
 
-footer{
-  color:black;
+footer {
+  color: black;
 }
 
-footer>h3, section>h3{
-  font-family:MontBold;
+footer>h3, section>h3 {
+  font-family: MontBold;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-section#home{
+
+section#home {
   font-family: MontBold;
   box-shadow: none;
   padding-top: 300px;
@@ -128,22 +120,24 @@ section#home{
   font-size: 20px;
   letter-spacing: 3px;
 }
-section#about{
+
+section#about {
     background-color: #11344b;
 
 }
 
-section#events{
+section#events {
   background-color: #123945;
 }
-section#team{
+
+section#team {
   background-color: #394841;
 }
 
-section#faq{
-  background-color:#110245;
+section#faq {
+  background-color: #110245;
 }
 
-section#sponsors{
-  background-color:#333;
+section#sponsors {
+  background-color: #333;
 }

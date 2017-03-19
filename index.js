@@ -1,23 +1,29 @@
 $(function() {
 
   $.addTemplateFormatter({
+    location: (value, template) => value.join("\n")
 
   });
 
   //call to JSON file location
-  (function() {
+
     const fileLocation = 'nextEvent.json'
-    $.getJSON(fileLocation, function(data) {
-console.log('DATA', data)
+  $.get(fileLocation, (response) => {
+    data = response
+        console.log('DATA', data)
+      $('#nextEvent').loadTemplate($("#template"), data)
+  }, "json")
 
-$('#nextEvent').loadTemplate($('#template'), data, {
 
-      success: function() {console.log('yay')},
-      complete: function(){ console.log('complete')},
-      error: function() {console.log('error')}
-    })
-})
-  })
+   // $.getJSON(fileLocation, function(data) {
+
+
+
+      // success: function() {console.log('yay')},
+      // complete: function(){ console.log('complete')},
+      // error: function() {console.log('error')}
+
+
 
 
 

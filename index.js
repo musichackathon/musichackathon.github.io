@@ -1,7 +1,14 @@
 $(function() {
 
   $.addTemplateFormatter({
-    location: (value, template) => value.join("\n")
+    address: (value) => value.join("<br>"),
+    schedule: (value) => {
+      for (let time in value) {
+        if (this.hasOwnProperty(time)) {
+          return (value[time])
+        }
+      }
+    }
 
   });
 

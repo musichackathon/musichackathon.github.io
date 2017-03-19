@@ -90,11 +90,12 @@ nav {
 }
 
 footer, section {
+  box-sizing: border-box;
   margin: 0;
   text-align: center;
   color: white;
   width: 100%;
-  padding: 3% 0 7% 5%;
+  padding: 3% 4% 7% 4%;
 
   -moz-box-shadow: rgba(0,0,0,0.3) 0px 10px 30px;
   -webkit-box-shadow: rgba(0,0,0,0.3) 0 10px 30px;

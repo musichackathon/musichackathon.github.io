@@ -122,9 +122,12 @@ section#home {
   letter-spacing: 3px;
 }
 
-section#about {
-    background-color: #11344b;
+section#nextEvent {
+  background-color: #799a53;
+}
 
+section#about {
+  background-color: #11344b;
 }
 
 section#events {

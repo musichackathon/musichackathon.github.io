@@ -19,13 +19,13 @@
 
 "speakers": [
   ["Maria Damus", "Songs of the Black Lives Matter movement"],
-  ["Martin Urbach", { "Youth using music in social justice activism": "https://www.youtube.com/watch?v=rPg_DwDJZmw"}],
+  ["Martin Urbach",
+    { "Youth using music in social justice activism": "https://www.youtube.com/watch?v=rPg_DwDJZmw"}
+  ],
   ["Joanne Loewy, director of the Louis Armstrong Center for Music and Medicine at Mount Sinai and Associate Professor at Icahn School of Medicine", "Our body is a symphony of sounds"],
   ["Amy Belfi, Cognitive Neuroscientist", "Music makes us feel"]
   ],
 "links": [
-  {},
-  {},
-  {}
+  ["here's a link", {"link text": "https://#"}]
 ]
 }

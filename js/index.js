@@ -8,7 +8,7 @@ $(function() {
         return (`<li>${key}: ${value[key]}</li>`)
       }).join('')
     },
-    speakerList: (value) => {
+    listWithLinks: (value) => {
       return value.map((speakerArray) => {
         let formatted = ''
         for (let x = 0; x < speakerArray.length; x++) {
@@ -29,7 +29,7 @@ $(function() {
   //call to JSON file location
   $.get(fileLocation, (response) => {
     data = response
-        console.log('DATA', data)
+      //console.log('DATA', data)
       $('#nextEvent').loadTemplate($("#template"), data)
   }, "json")
 

@@ -126,6 +126,12 @@ section#nextEvent {
   background-color: #799a53;
 }
 
+.left-align-div {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+}
+
 section#about {
   background-color: #11344b;
 }

@@ -21,8 +21,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="vendor/jquery.easing.min.js"></script>
 <script src="vendor/scrolling-nav.js"></script>
+<script src="vendor/jquery.loadTemplate.min.js" type="text/javascript"></script>
 
-<script src="index.js"></script>
+<script src="js/index.js"></script>
 
 </head>
 <body>
@@ -64,6 +65,39 @@
   hack together projects exploring music.
   </p>
 </section>
+
+
+<!--   begin next event template    -->
+<section id="nextEvent">
+
+  <script type="text/html" id="template">
+
+    <h2 data-content="name"></h2>
+
+    <img data-src="img" data-alt="img">
+
+    <div data-content="dateTime"></div>
+
+    <div data-content="location" data-format="address"></div>
+
+      <button>Event Brite button here... </button>
+      <!--you need access to EB event to add a button widget:
+      https://www.eventbrite.com/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_US -->
+
+    <div data-content="description"></div>
+
+    <div data-content="schedule" data-format="bulletList" class="left-align-div"></div>
+
+    <div data-content="speakers" data-format="listWithLinks" class="left-align-div"></div>
+
+    <div>this is where links to prior hackathons go... (when those routes are set up)</div>
+
+    <div data-content="links" data-format="listWithLinks" class="left-align-div"></div>
+
+  </script>
+
+</section>
+<!--   end next event template   -->
 
 <section id="about">
   <img src="img/mmh_logo_blue_big_transparent.png" width="240" height="240" />

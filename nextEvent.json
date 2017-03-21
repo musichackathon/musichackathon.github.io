@@ -1,0 +1,27 @@
+{
+"name": "Music With a Purpose Hackathon",
+
+"img": "img/mmh_purpose.jpg",
+
+"dateTime": "Saturday, December 3, 2016",
+
+"location": ["45 W 18th Street", "7th Floor", "New York, NY 10011"],
+
+"description": "Talks, workshops, and several hours dedicated to working on projects together, all focused on understanding music’s role and power in our lives, and how we can use music to improve the lives of others. The day will start with talks giving three perspectives on the theme of Music With A Purpose.",
+
+"schedule": {
+  "11:30 AM": "Doors open",
+  "12:00 PM": "Talks",
+  "1:30 PM": "Hacking and optional brainstorming session start",
+  "2:00 PM": "Workshops",
+  "8:00 PM": "Project performances and presentations"
+  },
+
+"speakers": {
+  "Maria Damus": "Songs of the Black Lives Matter movement",
+  "Martin Urbach": "Youth using music in social justice activism",
+  "Joanne Loewy, director of the Louis Armstrong Center for Music and Medicine at Mount Sinai and Associate Professor at Icahn School of Medicine": "Our body is a symphony of sounds",
+  "Amy Belfi, Cognitive Neuroscientist": "Music makes us feel"
+  },
+"links": ""
+}
